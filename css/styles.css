@@ -1,0 +1,63 @@
+/* CSS Document */
+/* line 1, ../scss/base/_base.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, ../scss/base/_base.scss */
+a {
+  text-decoration: none; }
+
+/* CSS Document */
+/* CSS Document */
+/* line 1, ../scss/components/_photoGallery.scss */
+#site-wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto; }
+
+/* line 7, ../scss/components/_photoGallery.scss */
+#photo-gallery {
+  display: grid; }
+
+/* line 11, ../scss/components/_photoGallery.scss */
+#search-field {
+  width: 50%;
+  margin: 2.5em auto;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: grey;
+  height: 3.75em; }
+  /* line 18, ../scss/components/_photoGallery.scss */
+  #search-field:focus, #search-field:active {
+    outline: none; }
+  /* line 22, ../scss/components/_photoGallery.scss */
+  #search-field::placeholder {
+    padding-left: 1.25em; }
+
+/* line 27, ../scss/components/_photoGallery.scss */
+.photos {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
+  grid-column-gap: 2.5em;
+  grid-row-gap: 2.5em; }
+
+/* line 36, ../scss/components/_photoGallery.scss */
+.img {
+  justify-self: center;
+  width: 100%;
+  max-width: 200px; }
+
+/* line 3, ../scss/components/_lightbox.scss */
+.lb-data .lb-details {
+  text-align: center; }
+
+/* line 9, ../scss/components/_lightbox.scss */
+.lightbox .lb-image {
+  border: none; }
+
+/* line 14, ../scss/components/_lightbox.scss */
+.lb-outerContainer {
+  background: none; }
+
+/*# sourceMappingURL=styles.css.map */

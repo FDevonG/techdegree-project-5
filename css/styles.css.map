@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;;ACAlB,CAAE;EACD,UAAU,EAAE,UAAU;;;AAGvB,CAAE;EACD,eAAe,EAAE,IAAI;;ACLtB,kBAAkB;ACAlB,kBAAkB;;ACAlB,aAAc;EACb,KAAK,EAAC,GAAG;EACT,SAAS,ECIiB,MAAM;EDHhC,MAAM,EAAE,IAAI;;;AAGb,cAAe;EACd,OAAO,EAAC,IAAI;;;AAGb,aAAc;EACb,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,UAAa;EACpB,aAAa,EAAC,GAAG;EACjB,MAAM,EAAC,cAAc;EACrB,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,MAAQ;;EACf,yCACS;IACR,OAAO,EAAC,IAAI;;EAEb,0BAAe;IACd,YAAY,EAAC,MAAQ;;;AAIvB,OAAO;EACN,OAAO,EAAC,IAAI;EACZ,aAAa,EAAC,MAAM;EACpB,qBAAqB,EAAC,sCAAyC;EAC/D,eAAe,EAAE,KAAQ;EACzB,YAAY,EAAE,KAAQ;;;AAIvB,IAAK;EACJ,YAAY,EAAC,MAAM;EACnB,KAAK,EAAC,IAAI;EACV,SAAS,EC/BiB,KAAK;;;ACL/B,oBAAY;EACX,UAAU,EAAE,MAAM;;;AAKnB,mBAAU;EACT,MAAM,EAAC,IAAI;;;AAIb,kBAAmB;EAClB,UAAU,EAAE,IAAI",
+"sources": ["../scss/base/_normalize.scss","../scss/base/_base.scss","../scss/utilities/_placeholders.scss","../scss/utilities/_mixins.scss","../scss/components/_photoGallery.scss","../scss/utilities/_variables.scss","../scss/components/_lightbox.scss"],
+"names": [],
+"file": "styles.css"
+}

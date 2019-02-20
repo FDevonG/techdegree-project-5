@@ -1,0 +1,40 @@
+#site-wrapper {
+	width:90%;
+	max-width: $max-width;
+	margin: auto;
+}
+
+#photo-gallery {
+	display:grid;
+}
+
+#search-field {
+	width:50%;
+	margin:em(40px) auto;
+	border-radius:5px;
+	border:1px solid grey;
+	color:grey;
+	height:em(60px);
+	&:focus,
+	&:active {
+		outline:none;
+	}
+	&::placeholder {
+		padding-left:em(20px);
+	}
+}
+
+.photos{
+	display:grid;
+	justify-items:center;
+	grid-template-columns:repeat(auto-fill, minmax(em(200px), 1fr));
+	grid-column-gap: em(40px);
+	grid-row-gap: em(40px);
+	
+}
+
+.img {
+	justify-self:center;
+	width:100%;
+	max-width: $imgthumbnail__max-wdith;
+}
